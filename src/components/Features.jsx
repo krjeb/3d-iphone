@@ -31,7 +31,7 @@ const Features = () => {
       {
         scale: 1,
         opacity: 1,
-        ease: "power1",
+        ease: "power1.inOut",
       },
       {
         scrub: 5.5,
@@ -41,7 +41,7 @@ const Features = () => {
     animateWithGsap(".g_text", {
       y: 0,
       opacity: 1,
-      ease: "power2",
+      ease: "power2.inOut",
       duration: 1,
     });
   }, []);
